@@ -1,0 +1,15 @@
+eclipse-sumo>=1.28
+sumolib>=1.28
+traci>=1.28
+osmnx>=2.2
+networkx>=3.0
+pandas>=2.2
+numpy>=1.26
+pyarrow>=17.0
+xgboost>=3.0
+scikit-learn>=1.5
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.8
+httpx>=0.27
+pytest>=8.0

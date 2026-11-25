@@ -1,0 +1,14 @@
+<configuration>
+    <input>
+        <net-file value="/workspace/abidjan-digital-twin/simulation/sumo/abidjan_pilot/network/abidjan_pilot.net.xml"/>
+        <route-files value="/workspace/abidjan-digital-twin/simulation/sumo/abidjan_pilot/demand/vehicles.rou.xml"/>
+        <additional-files value="metrics.add.xml,rain_vss.add.xml"/>
+    </input>
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>

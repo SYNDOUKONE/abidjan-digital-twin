@@ -1,0 +1,18 @@
+{
+  "version": "traffic-xgb-v1",
+  "dataset": "data/processed/traffic_60s_all.parquet",
+  "n_train": 47582,
+  "n_validation": 8431,
+  "n_test": 4384,
+  "xgboost": {
+    "mae": 9.753,
+    "rmse": 14.023
+  },
+  "naive_baseline": {
+    "mae": 10.726,
+    "rmse": 17.153
+  },
+  "mae_improvement_percent": 9.1,
+  "note": "Trained and evaluated on SIMULATED SUMO data only.",
+  "evaluated_at_utc": "2026-11-25T14:46:08.849943+00:00"
+}

@@ -1,0 +1,17 @@
+<additional>
+    <variableSpeedSign id="vss_740399586" lanes="740399586_0 740399586_1">
+        <step time="0" speed="11.67"/>
+    </variableSpeedSign>
+    <variableSpeedSign id="vss_330987680" lanes="330987680_0 330987680_1 330987680_2">
+        <step time="0" speed="11.67"/>
+    </variableSpeedSign>
+    <variableSpeedSign id="vss_336762056" lanes="336762056_0 336762056_1 336762056_2">
+        <step time="0" speed="11.67"/>
+    </variableSpeedSign>
+    <variableSpeedSign id="vss_738281896#2" lanes="738281896#2_0 738281896#2_1">
+        <step time="0" speed="11.67"/>
+    </variableSpeedSign>
+    <variableSpeedSign id="vss_333112567" lanes="333112567_0 333112567_1 333112567_2">
+        <step time="0" speed="11.67"/>
+    </variableSpeedSign>
+</additional>
