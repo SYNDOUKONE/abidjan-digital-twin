@@ -90,6 +90,7 @@ docker compose up -d   # PostGIS + Redis + MinIO + backend
 
 Visuels générés depuis les données du pilot (dossier [`docs/visuals/`](docs/visuals/)) :
 
+- [`traffic_3d.html`](docs/visuals/traffic_3d.html) — **viewer 3D interactif (Three.js)** : bâtiments OSM réels extrudés + réseau SUMO + véhicules animés, orbite/zoom à la souris. Télécharger le fichier brut et l'ouvrir dans un navigateur (connexion requise pour le module three.js)
 - [`congestion_baseline.png`](docs/visuals/congestion_baseline.png) — carte du réseau teintée par niveau de congestion (5 scénarios disponibles)
 - [`traffic_animation.gif`](docs/visuals/traffic_animation.gif) — replay animé de la circulation SUMO sur 6 minutes
 - [`scenario_comparison.png`](docs/visuals/scenario_comparison.png) — comparaison de la congestion et des volumes entre scénarios
