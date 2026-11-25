@@ -86,6 +86,16 @@ cp .env.example .env   # puis adapter
 docker compose up -d   # PostGIS + Redis + MinIO + backend
 ```
 
+## Voir le projet
+
+Visuels générés depuis les données du pilot (dossier [`docs/visuals/`](docs/visuals/)) :
+
+- [`congestion_baseline.png`](docs/visuals/congestion_baseline.png) — carte du réseau teintée par niveau de congestion (5 scénarios disponibles)
+- [`traffic_animation.gif`](docs/visuals/traffic_animation.gif) — replay animé de la circulation SUMO sur 6 minutes
+- [`scenario_comparison.png`](docs/visuals/scenario_comparison.png) — comparaison de la congestion et des volumes entre scénarios
+
+Régénérer : `python visualization/render_visuals.py --net simulation/sumo/abidjan_pilot/network/abidjan_pilot.net.xml [--animation]`
+
 ## API (extrait)
 
 | Méthode | Endpoint | Fonction |
